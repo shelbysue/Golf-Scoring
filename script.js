@@ -20,17 +20,17 @@ console.log(totalComparedToPar);
 
 // Display how many got
 
-if (totalComparedToPar = totalPar) {
+if (totalComparedToPar === totalPar) {
     alert("Good game, " + userName + ". Your total par was " + totalComparedToPar);
     console.log("Good game, " + userName + ". Your total par was " + totalComparedToPar);
 }
 
-if (totalComparedToPar > totalPar) {
+else if (totalComparedToPar > totalPar) {
     alert("Nice try, " + userName + "! Your total par was " + totalComparedToPar);
     console.log("Nice try, " + userName + "! Your total par was " + totalComparedToPar);
 }
 
-if (totalComparedToPar < totalPar) {
+else if (totalComparedToPar < totalPar) {
     alert("Great job, " + userName + ". Your total par was " + totalComparedToPar);
     console.log("Great job, " + userName + ". Your total par was " + totalComparedToPar);
-};
+}
